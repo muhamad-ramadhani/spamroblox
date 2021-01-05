@@ -21,7 +21,7 @@ var options = {
 	body:
 		{
 			"hangdeh"
-		}
+		};
 };
  
 needle.post('https://groups.roblox.com/v1/groups/4960056/wall/posts', options, function(err, resp) {
